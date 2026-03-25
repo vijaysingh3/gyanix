@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-gray-900 text-white antialiased overflow-hidden">
+      <body className="bg-gray-900 text-white antialiased h-screen overflow-hidden">
         {children}
       </body>
     </html>
